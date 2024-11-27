@@ -1,0 +1,61 @@
+#about {
+    margin-top: 120px;
+    border: 5px solid #343a40;
+    padding: 50px;
+    border-radius: 16px;
+    color: #ffffff;
+}
+
+#contact h2, form {
+    color: #fafafa;
+}
+
+.links a { 
+    background-color:#343a40;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+#projects {
+    background-color: #b0b4bb;
+    padding: 50px;
+    margin: auto;
+}
+#projects h2 {
+    color: rgb(64, 70, 77);
+    font-weight:bold;
+    margin-bottom: 6vh;
+}
+body {
+    background-color: #343a40 !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar {
+    transition: all 0.3s ease;
+}
+.project-card {
+    transition: transform 0.3s ease;
+}
+.card-body {
+    background-color: #b2b2b9a8;
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
+.form-control, .btn {
+    border-radius: 0;
+}
+footer {
+    background-color: #212429;
+    color: #000000;
+    padding: 50px 0;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #ccc;
+}
